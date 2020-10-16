@@ -1,0 +1,34 @@
+/*
+Theme Name: composition
+Description: premier wordpress des Woods 
+Author: Robby
+Author URI: https://github.com/Delvaux1986/cms-composition
+Version: 1.0
+*/
+
+* {box-sizing: border-box;font-family: Arial, sans-serif;}
+body {background: #f1f1f1; color: #333;  margin: 0;}
+
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    padding-right: 5px;
+    align-items: center;
+}
+.menu{
+    display:flex;
+    
+}
+
+
+@media screen and (max-width: 959px) {
+    #wrap {width: 100%; flex-direction: column; padding: 0 20px;}
+    #sidebar {padding: 0;}
+    #footer {flex-direction: column;}
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: teal;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display:block;
+}
+input{
+    display:inline-block;
+}

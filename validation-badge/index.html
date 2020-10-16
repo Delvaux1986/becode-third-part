@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Veterinaire Dr Doolittle">
+    <meta http-equiv="Content-Type" content="text/html/CSS;">
+    <meta name="author" content="Robby Delvaux">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Dr Doolittle</title>
+</head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#contact" title="contact">Contact</a></li>
+                    <li><a href="#horaire" title="horaire">Horaire</a></li>
+                    <li><a href="#map" title="map">Map</a></li>
+                </ul>
+            </nav>
+            <h1 class="title">Dr Doolittle</h1>
+                <section class="subTitle">
+                    <p>Clinique vétérinaire</p>
+                        <p>Chiens ,Chats ,Oiseaux ,Rongeurs</p>
+                    <p>Chaussée de Prout n°14</p>
+                </section>
+        </header>
+        <main>
+            <section class="firstContainer">
+                <img src="./assets/img/akon.jpg" alt="Un gentil chien :D">
+                <article>
+                    <h3 class="title">Un Lorem Ispum pas comme les autres</h3>
+                    <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+                </article>
+            </section>
+            <section class="secondContainer">
+                <h3 class="title">Nos Horaires d'ouverture</h3>    
+                    <img src="./assets/img/chat.jpg" alt="un chat" class="chat">
+                        <article class="horaire" id="horaire">
+                                <ul>
+                                    <li>Lundi : 9h - 17h</li>
+                                    <li>Mardi : 9h - 17h</li>
+                                    <li>Mercredi : 9h - 17h</li>
+                                    <li>Jeudi : 9h - 17h</li>
+                                    <li>Vendredi : 9h - 17h</li>
+                                    <li>Samedi : rendez-vous</li>
+                                    <li>Dimanche : fermer</li>
+                                </ul>
+                        </article>
+                    <img src="./assets/img/chien1.jpg" alt="un autre chien">
+            </section>
+            <section class="thirdContainer">
+                <h3 class="title">Contactez nous </h3>
+                    <form method="POST" id="contact">
+                        <label for="nom">Nom</label>
+                            <input type="text" id="nom" required="require" placeholder="Votre nom"/>
+                        <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" required="require" placeholder="Votre prénom"/>
+                        <label for="tel">Numéro de téléphone</label>
+                            <input type="text" id="tel" required="require" placeholder="Votre N° de téléphone"/>
+                        <label for="msg">Votre Message</label>
+                            <textarea type="text" id="msg" required="require">Veuillez ecrire votre message ici svp.</textarea>
+                        <input type="button" value="Envoyer" class="Envoyer"/>
+                </form>
+            </section>
+            <section class="fourthContainer">
+                <section><iframe width="360" height="400" title="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id='map'src="https://maps.google.com/maps?width=360&amp;height=400&amp;hl=en&amp;q=Avenue%20des%20allies%2040%20,6000%20Charleroi+(Dr%20Doolittle%20)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/route-planner.htm"></a></section>
+                <img src="./assets/img/tekila.jpg" alt="un chien encore et encore ">
+            </section>
+        </main>    
+    </body>
+    <footer>
+        <p>Copyright 2020 : Delvaux Robby</p>
+    </footer>
+</html>

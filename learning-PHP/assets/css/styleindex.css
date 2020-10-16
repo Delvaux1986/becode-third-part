@@ -1,0 +1,19 @@
+.main{
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    display: inline-flex;
+    align-items: center;
+}
+.menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul{
+    margin: 0 auto;
+}

@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    
+    
+}
+section{
+    background-color:#F5F5DC;
+}
+article{
+    background-color: RGB(0,85,30);
+}
+
+p , h1{
+    font-family: 'Pangolin', cursive;
+}
+.containerText{
+    background-image: url("../img/tab.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height:350px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#FFF;
+}
+.textArea{
+    max-width: 400px;
+    
+}
+.fakeBox{
+    height: 30vh;
+}
